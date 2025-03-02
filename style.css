@@ -7,48 +7,26 @@
     font-family: 'Times New Roman', serif;
 }
 
-/* Full-Screen Centered Look */
-body {
-    background-color: white;
-    color: black;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+/* Make Sure the Page Fills the Screen */
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
-/* Navigation Bar */
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-    font-size: 18px;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* HOME PAGE - Full-Screen Hero */
+/* Full-Screen Hero Section */
 .home-hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh; /* This makes it take the FULL SCREEN HEIGHT */
     text-transform: uppercase;
+    background-color: white;
 }
 
+/* Text Styling */
 .home-hero h1 {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -57,32 +35,5 @@ nav a:hover {
     font-size: 26px;
     font-style: italic;
     margin-top: 10px;
-}
-
-/* Category Links */
-.categories {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 50px 0;
-}
-
-.category {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    transition: 0.3s;
-}
-
-.category:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    padding: 20px;
-    font-size: 14px;
-    margin-top: auto;
 }
 
