@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', serif;
 }
 
-/* Full-Page Background & Centering */
+/* Full-Screen Centered Look */
 body {
     background-color: white;
     color: black;
@@ -20,12 +20,12 @@ body {
 nav {
     display: flex;
     justify-content: center;
+    gap: 30px;
     padding: 20px;
     font-size: 18px;
 }
 
 nav a {
-    margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -36,25 +36,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section - Big Title */
-.hero {
-    flex: 1;
+/* HOME PAGE - Full-Screen Hero */
+.home-hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     text-transform: uppercase;
 }
 
-.hero h1 {
-    font-size: 80px;
+.home-hero h1 {
+    font-size: 90px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 .tagline {
-    font-size: 24px;
+    font-size: 26px;
     font-style: italic;
     margin-top: 10px;
 }
@@ -63,12 +62,12 @@ nav a:hover {
 .categories {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin: 50px 0;
 }
 
 .category {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -85,3 +84,4 @@ footer {
     font-size: 14px;
     margin-top: auto;
 }
+
