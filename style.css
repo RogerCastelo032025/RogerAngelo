@@ -36,5 +36,122 @@ nav ul li .active {
 }
 
 /* Universal Page Titles & Subtitles */
-.page
+.page-title {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+}
 
+.page-subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/* ----- SECTION STYLES ----- */
+
+/* BODY Section */
+.body-page {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* VOICE Section */
+.voice-page {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.voice-article {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/* THOUGHTS Section */
+.thoughts-page {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.thoughts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.thoughts-item {
+    background: #f7f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SKY Section */
+.sky-page {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.travel-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.travel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.travel-item p {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* LOVE Section */
+.love-page {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.quote-container {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.8;
+    background: #f7f1f1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    margin: 20px auto;
+    max-width: 600px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
