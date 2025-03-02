@@ -7,41 +7,30 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-/* Centered Header */
+/* Header Styling */
 header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 30px 20px;
+    padding: 20px 50px;
     border-bottom: 2px solid black;
 }
 
-/* Centering the Logo */
 .logo {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 10px;
-}
-
-/* Centering Navigation */
-nav {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
 }
 
 nav a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    margin: 0 15px;
     color: black;
     text-transform: uppercase;
-    padding: 5px 15px;
 }
 
 nav a:hover {
@@ -51,32 +40,28 @@ nav a:hover {
 /* Introduction Section */
 .intro {
     text-align: center;
-    padding: 80px 20px;
+    padding: 60px 20px;
     font-size: 22px;
 }
 
 .intro h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 
-/* Centered Content Grid */
+/* Content Grid */
 .content-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 40px;
+    text-align: center;
 }
 
-/* Content Boxes */
 .content-box {
-    width: 60%;
     border: 2px solid black;
-    padding: 30px;
-    max-width: 500px;
+    padding: 20px;
 }
 
 .content-box h3 {
@@ -89,6 +74,7 @@ nav a:hover {
     font-size: 16px;
     color: #333;
 }
+
 
 
 
