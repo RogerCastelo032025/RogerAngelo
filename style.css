@@ -1,71 +1,87 @@
-body {
-    font-family: 'Times New Roman', serif;
-    text-align: center;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #000;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
 }
 
-header {
-    padding: 20px;
+/* Full-Page Background & Centering */
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.subtitle {
-    font-size: 18px;
-    font-style: italic;
-}
-
+/* Navigation Bar */
 nav {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #000;
+    color: black;
+    transition: 0.3s;
 }
 
-nav a.active {
+nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    text-align: left;
+/* Hero Section - Big Title */
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-transform: uppercase;
 }
 
-h2 {
-    font-size: 28px;
+.hero h1 {
+    font-size: 80px;
     font-weight: bold;
+    letter-spacing: 4px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.tagline {
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 10px;
 }
 
-ul li {
-    margin: 10px 0;
+/* Category Links */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
 }
 
-ul li a {
+.category {
+    font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    color: black;
+    transition: 0.3s;
 }
 
+.category:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
-    margin-top: 50px;
-    padding: 10px;
+    padding: 20px;
     font-size: 14px;
+    margin-top: auto;
 }
-
-
